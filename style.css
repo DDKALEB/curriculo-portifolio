@@ -10,6 +10,7 @@ ul {
   list-style-type: none;
   align-items: center;
   padding: 15px;
+  font-size: 30px; /* Ajuste o valor conforme necessário */
 }
 
 a {
@@ -31,6 +32,12 @@ header img {
 }
 h1 {
   color: #5bbe5b;
+}
+
+.large-button {
+  width: 200px; /* Ajuste o valor conforme necessário */
+  height: 60px; /* Ajuste o valor conforme necessário */
+  font-size: 18px; /* Ajuste o valor conforme necessário */
 }
 
 footer img {
@@ -79,4 +86,23 @@ button {
 
 section a:hover {
   color: #5bbe5b;
+}
+
+.university-button a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.university-button img {
+  margin-bottom: 10px; /* Adiciona espaço entre a imagem e o texto (ajuste conforme necessário) */
+}
+.formacao-superior {
+  font-size: 30px; /* Ajuste o valor conforme necessário */
+  text-align: left; /* Posiciona o texto */
+  margin-bottom: 50px; /* Adiciona um espaçamento abaixo do título (ajuste conforme necessário) */
 }

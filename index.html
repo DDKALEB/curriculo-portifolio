@@ -19,6 +19,45 @@
         margin: 0 auto; /* Adiciona margens automáticas para centralizar no eixo horizontal */
       }
     </style>
+    <style>
+      /* Adicione estilos CSS conforme necessário */
+      .university-button {
+        display: inline-block;
+        justify-content: space-around;
+        background-color: #4caf50; /* Cor de fundo verde */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+
+        text-decoration: none;
+        font-size: 16px;
+        margin: 10px auto; /* Adiciona margem vertical e centraliza horizontalmente */
+        cursor: pointer;
+      }
+
+      /* Adicione estilos específicos para cada botão, se desejar */
+      #ciencia-da-computacao-button {
+        background-color: #3498db; /* Cor de fundo azul */
+      }
+      #engenharia-civil-button {
+        background-color: #e74c3c; /* Cor de fundo vermelha */
+      }
+      #engenharia-de-dados-button {
+        background-color: #f39c12; /* Cor de fundo amarela */
+      }
+      /* Adicione estilos para o footer */
+      footer {
+        text-align: center;
+        margin-top: 20px; /* Adiciona espaçamento acima do footer */
+      }
+
+      footer a {
+        display: inline-block; /* Torna os itens do footer blocos para adicionar espaçamento */
+        margin: 0 10px; /* Adiciona espaçamento horizontal entre os itens */
+        text-decoration: none;
+        color: #333;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -51,11 +90,14 @@
             onde aprimorei habilidades em manipulação de dados utilizando HTML,
             CSS, JavaScript e MySQL.
             <p>
-              Alem disso, estou atualmente envolvido no BootCamp de Engenheiro
-              de Software, aprimorando competências em Python e MySQL.Apesar de
-              minha falta de experiência profissional direta, destaco minha
-              habilidade na organização de bases de dados, elaboração de
-              dashboards coerentes e aplicação prática de fórmulas avançadas.
+              Alem disso, estou atualmente cursando a Escola DNC-Formação em
+              Tecnologia, em paralelo tambem no Programa ONE-Oracle Next
+              Education/Alura para formação Desenvolvedor Web, aprimorando
+              competências diversas em algoritimicos, JavaScrit, Python e
+              MySQL.Apesar de minha falta de experiência profissional direta,
+              destaco minha habilidade na organização de bases de dados, ETL,
+              elaboração de dashboards coerentes e aplicação prática de fórmulas
+              avançadas.
             </p>
             Meu background em Business Analytics e Dados, aliado aos cursos
             frequentados, proporcionou-me uma compreensão sólida do ciclo de
@@ -65,6 +107,43 @@
             empresa. Estou entusiasmado com a oportunidade de aplicar e expandir
             meus conhecimentos em um ambiente profissional desafiador.
           </h2>
+          <!-- Estrutura de tópicos com botões estilizados -->
+
+          <h3 class="formacao-superior">Formação Superior</h3>
+
+          <button
+            class="university-button large-button"
+            id="ciencia-da-computacao-button"
+          >
+            <a href="https://www.usjt.br/modalidades/ead/" target="_blank">
+              <img src="./img/sao-judas.png" alt="Logo Ciência da Computação" />
+              Ciência da Computação USJT
+              <br /><br />
+            </a>
+          </button>
+          <button
+            class="university-button large-button"
+            id="engenharia-civil-button"
+          >
+            <a href="https://www.usjt.br/" target="_blank">
+              <img src="./img/sao-judas-1.png" alt="Logo Engenharia Civil" />
+              Graduação Engenharia USJT
+              <br /><br />
+            </a>
+          </button>
+          <button
+            class="university-button large-button"
+            id="engenharia-de-dados-button"
+          >
+            <a
+              href="https://www.posanhanguera.com.br/engenharia-de-dados-anhanguera-educacao-a-distancia/p?gad_source=1&gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3LUMk9sjQvXRprTJnlipWQ8JHeccsNEkvAc_X2UG04Q-dLZrHONP-4aApENEALw_wcB"
+              target="_blank"
+            >
+              <img src="./img/anhanguera.png" alt="Logo Engenharia de Dados" />
+              Pós Graduação Eng. de Dados Anhanguera
+              <br /><br />
+            </a>
+          </button>
         </section>
       </main>
       <footer>
